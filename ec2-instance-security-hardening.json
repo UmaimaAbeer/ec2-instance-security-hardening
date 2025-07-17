@@ -1,0 +1,24 @@
+{
+  "project_title": "EC2 Instance Security Hardening Project",
+  "author": "Syeda Umaima Abeer",
+  "date_completed": "2025-07-17",
+  "tools_used": [
+    "AWS EC2",
+    "Ubuntu 24.04",
+    "SSH",
+    "UFW Firewall",
+    "Fail2Ban"
+  ],
+  "description": "This project involved securing an Ubuntu-based EC2 instance by applying multiple layers of security best practices. Key-based SSH access was configured, system updates were applied, and automatic security upgrades enabled. UFW firewall was set up to restrict access, root login and password-based authentication were disabled, and Fail2Ban was configured to detect and block brute-force login attempts.",
+  "steps_performed": [
+    "Launched an EC2 instance using Ubuntu 24.04 in the Mumbai region.",
+    "Connected securely via SSH using a .pem key file.",
+    "Updated and patched the system using apt update and upgrade.",
+    "Installed and configured unattended-upgrades for automatic security patches.",
+    "Installed and enabled UFW to allow only SSH access.",
+    "Disabled root login and password authentication in SSH configuration.",
+    "Installed and activated Fail2Ban to block suspicious login attempts."
+  ],
+  "github_repo_url": "https://github.com/UmaimaAbeer/ec2-security-hardening",
+  "status": "Completed"
+}
